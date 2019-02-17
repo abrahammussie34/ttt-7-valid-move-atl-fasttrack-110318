@@ -12,7 +12,7 @@ books = [book1,book2,book3,"goblets of fire", "order of the phoenix","half blood
 #build an array of the full titles of the books
 #harry potter and the -
 
-booktitles [sorcer,]
+booktitles = [sorcer,chamber,prisoner]
 
 
 
