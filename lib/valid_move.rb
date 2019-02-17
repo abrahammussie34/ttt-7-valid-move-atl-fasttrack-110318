@@ -9,16 +9,29 @@ book3 = "prisoner"
 books = [book1,book2,book3,"goblets of fire", "order of the phoenix","half blood prince","deathly hallows pt.1"]
 
 #loop over the titles
+def add_prefix(title)
+return "chamber" + title
+end
+
+
+full_titles = []
+title.each do |title|
+  full_title = add_addprefix(title)
+  full_titles.push(full_title)
+end
+
+def print_titles(titles)
+puts full_titles.inspect
+
 #build an array of the full titles of the books
 #harry potter and the -
 
-array
-
-booktitles = [title1,title2,title3,title4,title5,title6,title7]
-def print_titles(booktitles)
-  booktitles.each do |title|
-    puts 
-  end
+#ary = Array.new 
+#array.new = 
+#def print_titles(booktitles)
+#  booktitles.each do |title|
+#    puts 
+#  end
 
 print_titles(booktitles)
 
